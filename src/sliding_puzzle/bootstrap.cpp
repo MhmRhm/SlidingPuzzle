@@ -10,7 +10,7 @@
 #include <ftxui/screen/color.hpp>
 #include <ftxui/screen/screen.hpp>
 
-ftxui::Element printBoard(const sp::Board& board, const std::string &duration) {
+ftxui::Element printBoard(const sp::Board &board, const std::string &duration) {
   using namespace ftxui;
   using namespace std;
   using namespace sp;
@@ -88,7 +88,7 @@ void runPuzzle(size_t size) {
       screen.ExitLoopClosure()();
       return true;
     }
-    
+
     // movement of the numbered tiles is opposite of the free tile
     if (event == Event::ArrowUp) {
       puzzle.moveDown();
