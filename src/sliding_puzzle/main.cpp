@@ -2,7 +2,7 @@ void runPuzzle(size_t size);
 
 int main() {
   std::cout << "q: Exit, Arrow Keys: Moving Tiles. Enter "
-               "number of disks: ";
+               "size of the board (3 for a 3x3 board): ";
 
   size_t size{};
   std::cin >> size;
