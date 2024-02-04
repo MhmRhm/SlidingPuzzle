@@ -1,0 +1,8 @@
+add_executable(sliding_puzzle_benchmark sliding_puzzle_benchmark.cpp)
+target_link_libraries(sliding_puzzle_benchmark PRIVATE sliding_puzzle_static)
+
+target_link_libraries(sliding_puzzle_benchmark PRIVATE precompiled)
+
+include(Format)
+Format(sliding_puzzle_benchmark .)
+AddBenchmarks(sliding_puzzle_benchmark)
