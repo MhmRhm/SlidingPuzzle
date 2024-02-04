@@ -1,7 +1,7 @@
 # The Sliding Puzzle
 An implementation of Sliding Puzzle using FTXUI. This is a game you can play at any terminal.
 
-<p align="center"><img src="https://github.com/MhmRhm/SlidingPuzzle/blob/main/game_play.gif?raw=true" alt="Demo image"></img></p>
+<p align="center"><img src="https://github.com/MhmRhm/SlidingPuzzle/blob/main/doc/game_play.gif?raw=true" alt="Demo image"></img></p>
 
 The contents of `./.devcontainer` are used to create a cross-platform containerized development environment using the provided `Dockerfile`. If you are using vscode, look into *Remote Development* extension.
 
