@@ -1,5 +1,5 @@
 # The Sliding Puzzle
-An implementation of Sliding Puzzle using FTXUI. This is a game you can play at any terminal.
+An implementation of Sliding Puzzle using [FTXUI](https://github.com/ArthurSonzogni/FTXUI). This is a game you can play at any terminal.
 
 <p align="center"><img src="https://github.com/MhmRhm/SlidingPuzzle/blob/main/doc/game_play.gif?raw=true" alt="Demo image"></img></p>
 
